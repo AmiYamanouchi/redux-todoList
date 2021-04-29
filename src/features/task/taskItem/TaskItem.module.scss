@@ -1,0 +1,41 @@
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+
+    .title{
+        display: flex;
+        align-items: center;
+
+        .title_text {
+            margin-left: 10px;
+        }
+    }
+
+    .right_item {
+        display: flex;
+        align-items: center;
+
+        .edit_button,
+        .delete_button {
+            border: none;
+            border-radius: 5px;
+            background-color: #fff;
+            cursor: pointer;
+
+            .icon {
+                width: 20px;
+                color: red;
+
+            }
+        }
+
+        .edit_button{
+            margin-right: 5px;
+        }
+    }
+}
